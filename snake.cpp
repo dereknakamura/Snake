@@ -43,7 +43,7 @@ void Draw()
 			if (i == y && j == x)
 				cout << "O";
 			else if (i == fruitY && j == fruitX)
-				cout << "F";
+				cout << "@";
 			else
 			{
 				bool print = false;
